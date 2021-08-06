@@ -1,0 +1,7 @@
+WhackAMole:
+    ☐ Add styling @low 
+    ☐ Prevent multiple clicks @critical 
+    ☐ Prevent clicks after time runs out @critical 
+    ☐ Add restart/resest button @high 
+    ☐ Make the game responsive @low
+    ☐ Add some sort of random delay to the moles appearance @low  

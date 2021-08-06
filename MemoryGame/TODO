@@ -1,0 +1,8 @@
+MemoryGame: 
+    ☐ Fix the scoring and game over trigger @critical 
+    ☐ Add some styling @low 
+    ☐ Add a restart/reset button @high 
+    ☐ Disable flipping after game completion @critical 
+    ☐ Ensure already chosen cards cant be flipped @critical 
+    ☐ Ensure same card cant be flipped twice to get a match @critical 
+    ☐ Add some sort of move counter to detrmine accuracy @low 

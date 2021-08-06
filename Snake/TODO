@@ -1,9 +1,13 @@
 Snake:
-    ☐ Ensure snake only turn in three directions(never into its body)
+    ☐ Ensure snake only turn in three directions(never into its body) @high 
     ☐ Ensure there is some delay between succesive inputs
     ☐ Style the snake and the food
-    ☐ Add and option to make the board borderless
+        ☐ Make sure syle changes according to direction of each segment @low
+    ☐ Add an option to make the board borderless
     ☐ Add different levels with diffent borders and obstacles
-    ☐ Style the board, the score display and the buttons
+    ☐ Add speed control options based on levels
+    ☐ Style the board, the score display and the buttons @high 
     ☐ Add a special food that appears occasionally and provides points based on how fast it was eaten and can also expire
     ☐ Add a pause button
+    ☐ Make the game responsive for small displays
+    ☐ Add buttons for touchscreen devices

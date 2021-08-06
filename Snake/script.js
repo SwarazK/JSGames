@@ -2,13 +2,13 @@ const squares = document.querySelectorAll(".grid div");
 const scoreDisplay = document.querySelector("span");
 const startBtn = document.querySelector(".start-btn");
 
-const width = 10;
-let currentIndex = 0;
+const width = 20;
+// let currentIndex = 0;
 let foodIndex = 0;
 let snake = [2,1,0]; //First element is the position of the head and the last element is the position of the tail
 let direction = 1; //Specify directions
 let score = 0;
-let speed = 0.9;
+let speed = 0.95;
 let intervalTime = 0;
 let interval = 0;
 
@@ -24,9 +24,9 @@ function startGame(){
     score = 0;
     direction = 1;
     scoreDisplay.textContent = score;
-    intervalTime = 1000;
+    intervalTime = 500;
     snake = [2,1,0];
-    currentIndex = 0;
+    // currentIndex = 0;
     placeFood();
 
     //Render the snake
@@ -82,7 +82,7 @@ function placeFood(){
 
 // Set the direction of the snake based on keyboard input 
 function control(e){
-    squares[currentIndex].classList.remove('snake');
+    // squares[currentIndex].classList.remove('snake');
     
     if(e.keyCode === 39){
         direction = 1; //For right arrow key
